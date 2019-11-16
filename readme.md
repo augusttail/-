@@ -24,6 +24,8 @@ java字符串实验
 …………
 
 核心代码
+
+###########
 try {
 	            if (args.length == 0) {
 	                throw new IllegalArgumentException("Please input 长恨歌");
