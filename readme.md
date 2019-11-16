@@ -23,10 +23,10 @@ java字符串实验
 春宵苦短日高起，从此君王不早朝。
 …………
 
-核心代码
+三、核心代码
 
-###########
-try {
+                 ###########
+         try {
 	            if (args.length == 0) {
 	                throw new IllegalArgumentException("Please input 长恨歌");
 	            }
@@ -50,8 +50,8 @@ try {
 	        String find = scanner.nextLine();
 	        countString(res, find);
           
-          ############
-          
+         
+       ----------------------------------------------------------
          private static void method(String s) {
 		// 定义 一个容器
 		TreeMap<Character, Integer> tm = new TreeMap<Character, Integer>();
